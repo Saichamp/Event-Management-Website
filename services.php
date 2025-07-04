@@ -48,7 +48,7 @@
             align-items: center;
             justify-content: center;
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), 
-                        url('assets/services/hero-bg.jpg') center/cover no-repeat fixed;
+                        url('assets/img3.png') center/cover no-repeat fixed;
             color: white;
             text-align: center;
             padding: 0 2rem;
@@ -119,7 +119,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('assets/gold-pattern.png') center/cover;
+            background: url('assets/img1.png') center/cover;
             opacity: 0.05;
             z-index: 0;
         }
@@ -283,7 +283,7 @@
         }
 
         .service-section--alt {
-            background: url('assets/services/service-bg.jpg') center/cover fixed;
+            background: url('assets/img1.png') center/cover fixed;
         }
 
         .service-section--alt::before {

@@ -26,22 +26,22 @@
             <div class="navbar-primary__menu" id="navbarMenu">
                 <ul class="navbar-primary__list">
                     <li class="navbar-primary__item">
-                        <a href="#home" class="navbar-primary__link navbar-primary__link--active">Home</a>
+                        <a href="index.php" class="navbar-primary__link navbar-primary__link--active">Home</a>
                     </li>
                     <li class="navbar-primary__item">
-                        <a href="#services" class="navbar-primary__link">Services</a>
+                        <a href="services.php" class="navbar-primary__link">Services</a>
                     </li>
                     <li class="navbar-primary__item">
-                        <a href="#portfolio" class="navbar-primary__link">Gallery</a>
+                        <a href="gallery.php" class="navbar-primary__link">Gallery</a>
                     </li>
                     <li class="navbar-primary__item">
-                        <a href="#about" class="navbar-primary__link">About</a>
+                        <a href="aboutus.php" class="navbar-primary__link">About</a>
                     </li>
                     <li class="navbar-primary__item">
-                        <a href="#testimonials" class="navbar-primary__link">Testimonials</a>
+                        <a href="testimonials.php" class="navbar-primary__link">Testimonials</a>
                     </li>
                     <li class="navbar-primary__item">
-                        <a href="#contact" class="navbar-primary__link navbar-primary__link--cta">Contact</a>
+                        <a href="contact.php" class="navbar-primary__link navbar-primary__link--cta">Contact</a>
                     </li>
                 </ul>
             </div>
