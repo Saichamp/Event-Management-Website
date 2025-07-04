@@ -180,11 +180,125 @@
         </div>
     </div>
 </section>
-    <!-- Rest of your content sections will go here -->
+<!-- Testimonials Section -->
+<!-- Testimonials Section -->
+<section class="golden-testimonials-3d" id="testimonials">
+    <div class="golden-3d-container">
+        <h2 class="golden-3d-title">Voices of <span class="golden-text-gradient">Delight</span></h2>
+        <p class="golden-3d-subtitle">Where Memories Become Testimonials</p>
+        
+        <div class="golden-3d-carousel" id="testimonialCarousel">
+            <!-- Testimonial items will be injected via JS -->
+        </div>
+        
+        <div class="golden-3d-nav">
+            <button class="golden-3d-prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="golden-3d-pagination"></div>
+            <button class="golden-3d-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
     
+    <!-- Floating decorative elements -->
+    <div class="golden-3d-particle" id="particle-1"></div>
+    <div class="golden-3d-particle" id="particle-2"></div>
+    <div class="golden-3d-particle" id="particle-3"></div>
+</section>
+    <!-- Rest of your content sections will go here -->
+    <!-- Gallery Section -->
+<section class="golden-gallery" id="gallery">
+    <div class="golden-gallery-container">
+        <h2 class="golden-gallery-title">Our <span class="golden-sparkle">Memories</span></h2>
+        <p class="golden-gallery-subtitle">Capturing moments that last lifetimes</p>
+        
+        <div class="golden-grid-masonry">
+            <!-- Grid Item 1 (Large) -->
+            <div class="golden-grid-item golden-grid-item--wide">
+                <img src="assets/t1.jpg" alt="Grand Wedding" class="golden-grid-img">
+                <div class="golden-grid-overlay">
+                    <div class="golden-grid-content">
+                        <h3 class="golden-grid-caption">Royal Wedding</h3>
+                        <p class="golden-grid-description">500+ guests · Taj Palace</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Grid Item 2 (Tall) -->
+            <div class="golden-grid-item golden-grid-item--tall">
+                <img src="assets/t2.jpg" alt="Corporate Event" class="golden-grid-img">
+                <div class="golden-grid-overlay">
+                    <div class="golden-grid-content">
+                        <h3 class="golden-grid-caption">Tech Conference</h3>
+                        <p class="golden-grid-description">Bangalore · 2023</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Grid Item 3 (Small) -->
+            <div class="golden-grid-item">
+                <img src="assets/gallery/birthday-1.jpg" alt="Birthday Party" class="golden-grid-img">
+                <div class="golden-grid-overlay">
+                    <div class="golden-grid-content">
+                        <h3 class="golden-grid-caption">Sweet 16</h3>
+                        <p class="golden-grid-description">Themed Party</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Grid Item 4 (Medium) -->
+            <div class="golden-grid-item">
+                <img src="assets/gallery/sangeet-1.jpg" alt="Sangeet Night" class="golden-grid-img">
+                <div class="golden-grid-overlay">
+                    <div class="golden-grid-content">
+                        <h3 class="golden-grid-caption">Sangeet Night</h3>
+                        <p class="golden-grid-description">Live Performances</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Grid Item 5 (Medium) -->
+            <div class="golden-grid-item">
+                <img src="assets/gallery/product-1.jpg" alt="Product Launch" class="golden-grid-img">
+                <div class="golden-grid-overlay">
+                    <div class="golden-grid-content">
+                        <h3 class="golden-grid-caption">Product Launch</h3>
+                        <p class="golden-grid-description">VR Experience</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Grid Item 6 (Tall) -->
+            <div class="golden-grid-item golden-grid-item--tall">
+                <img src="assets/gallery/haldi-1.jpg" alt="Haldi Ceremony" class="golden-grid-img">
+                <div class="golden-grid-overlay">
+                    <div class="golden-grid-content">
+                        <h3 class="golden-grid-caption">Haldi Ceremony</h3>
+                        <p class="golden-grid-description">Traditional Rituals</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Grid Item 7 (Wide) -->
+            <div class="golden-grid-item golden-grid-item--wide">
+                <img src="assets/gallery/reception-1.jpg" alt="Reception" class="golden-grid-img">
+                <div class="golden-grid-overlay">
+                    <div class="golden-grid-content">
+                        <h3 class="golden-grid-caption">Grand Reception</h3>
+                        <p class="golden-grid-description">500+ guests</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="golden-gallery-cta">
+            <a href="#" class="golden-view-more">View Full Portfolio <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+    </div>
+</section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Add these before your existing scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <?php include 'footer.php'; ?>    
 </body>
 </html>
