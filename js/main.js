@@ -9,24 +9,30 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Toggle mobile menu
     toggleButton.addEventListener('click', function() {
+        this.classList.toggle('navbar-primary__toggle--active');
         navMenu.classList.toggle('navbar-primary__menu--active');
         
-        // Animate hamburger icon
-        this.classList.toggle('navbar-primary__toggle--active');
+        // Toggle body scroll when menu is open
+        if (navMenu.classList.contains('navbar-primary__menu--active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
     });
     
     // Close mobile menu when clicking a link
     navLinks.forEach(link => {
         link.addEventListener('click', function() {
             if (navMenu.classList.contains('navbar-primary__menu--active')) {
-                navMenu.classList.remove('navbar-primary__menu--active');
                 toggleButton.classList.remove('navbar-primary__toggle--active');
+                navMenu.classList.remove('navbar-primary__menu--active');
+                document.body.style.overflow = '';
             }
         });
     });
     
     // Change navbar style on scroll
-    window.addEventListener('scroll', function() {
+    function updateNavbarStyle() {
         if (window.scrollY > 100) {
             header.style.background = 'var(--white)';
             navbar.classList.remove('navbar-primary--transparent');
@@ -50,8 +56,25 @@ document.addEventListener('DOMContentLoaded', function() {
                 icon.style.backgroundColor = 'var(--white)';
             });
         }
-    });
+    }
     
+    // Initialize navbar style
+    updateNavbarStyle();
+    
+    window.addEventListener('scroll', updateNavbarStyle);
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        const isClickInsideNav = navbar.contains(event.target);
+        const isClickOnToggle = toggleButton.contains(event.target);
+        
+        if (!isClickInsideNav && !isClickOnToggle && 
+            navMenu.classList.contains('navbar-primary__menu--active')) {
+            toggleButton.classList.remove('navbar-primary__toggle--active');
+            navMenu.classList.remove('navbar-primary__menu--active');
+            document.body.style.overflow = '';
+        }
+    });
     // Carousel Functionality
     const slides = document.querySelectorAll('.hero-carousel__slide');
     const indicators = document.querySelectorAll('.hero-carousel__indicator');
@@ -125,7 +148,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.hero-carousel').addEventListener('mouseenter', pauseCarousel);
     document.querySelector('.hero-carousel').addEventListener('mouseleave', startCarousel);
 });
-
+  
+// Testimonial Carousel Functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Testimonial data
     const testimonials = [

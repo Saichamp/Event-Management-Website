@@ -1,9 +1,7 @@
 <!-- Floating Contact Buttons -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+
   <link rel="stylesheet" href="css/footer.css">
- </head>
+ 
  <body>
     <div class="floating-contact">
     <a href="https://wa.me/919876543210" class="floating-contact__button floating-contact__button--whatsapp" aria-label="Chat on WhatsApp">
@@ -132,6 +130,7 @@
     <button class="scroll-to-top" id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </button>
+     <script src="js/main.js"></script>
 <script src="js/footer.js"></script>
  </body>
  </html>
