@@ -4,10 +4,10 @@
  
  <body>
     <div class="floating-contact">
-    <a href="https://wa.me/919876543210" class="floating-contact__button floating-contact__button--whatsapp" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/919494055362" class="floating-contact__button floating-contact__button--whatsapp" aria-label="Chat on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
-    <a href="https://instagram.com/goldenevents" class="floating-contact__button floating-contact__button--instagram" aria-label="Follow on Instagram">
+    <a href="https://www.instagram.com/g4_golden_events" class="floating-contact__button floating-contact__button--instagram" aria-label="Follow on Instagram">
         <i class="fab fa-instagram"></i>
     </a>
 </div>
