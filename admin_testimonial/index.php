@@ -220,9 +220,9 @@ if (!$auth->isLoggedIn()) {
     $page = 'login';
 }
 
-// Redirect to gallery if already logged in and trying to access login
+// Redirect to testimonial_add if already logged in and trying to access login
 if ($page === 'login' && $auth->isLoggedIn()) {
-    header('Location: gallery.php');
+    header('Location: testimonial_add.php');
     exit;
 }
 
@@ -344,7 +344,7 @@ class AdminPanel {
             if (data.success) {
                 this.showAlert('success', data.message);
                 setTimeout(() => {
-                    window.location.href = 'gallery.php';
+                    window.location.href = 'testimonial_add.php';
                 }, 1000);
             } else {
                 this.showAlert('danger', data.message);

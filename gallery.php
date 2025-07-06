@@ -494,7 +494,7 @@
         <div class="gallery-cta__content">
             <h2 class="gallery-cta__title">Ready to Create Your Own Golden Moments?</h2>
             <p class="gallery-cta__text">Let's discuss how we can make your event as memorable as these</p>
-            <a href="#contact" class="gallery-cta__button">
+            <a href="contact.php" class="gallery-cta__button">
                 <i class="fas fa-calendar-check"></i> Book Your Event
             </a>
         </div>

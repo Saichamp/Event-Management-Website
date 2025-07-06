@@ -166,6 +166,7 @@
             font-size: 1.2rem;
             line-height: 1.8;
             margin-bottom: 3rem;
+            text-align:justify;
         }
 
         .stats-container {
@@ -264,7 +265,7 @@
 
         .team-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+grid-template-columns: repeat(2, 1fr);
             gap: 3rem;
             max-width: 1300px;
             margin: 0 auto;
@@ -272,6 +273,21 @@
             position: relative;
             z-index: 1;
         }
+        @media (max-width: 1200px) {
+            .team-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+
+
 
         .team-member {
             background: rgba(255,255,255,0.05);
@@ -353,6 +369,7 @@
             line-height: 1.8;
             font-size: 0.95rem;
             min-height: 100px;
+            text-align:justify;
         }
 
         .team-member__social {
@@ -439,6 +456,7 @@
             font-size: 1.2rem;
             max-width: 700px;
             margin: 0 auto;
+            text-align:justify;
         }
 
         .values-grid {
@@ -491,7 +509,7 @@
         .value-description {
             color: var(--text-light);
             line-height: 1.8;
-            text-align: center;
+            text-align:justify;
         }
 
         /* CTA Section */
@@ -658,6 +676,7 @@
                 justify-content: center;
             }
         }
+        
     </style>
 </head>
 <body>
@@ -719,16 +738,14 @@
         
         <div class="team-grid" id="team-grid">
             <!-- Team Member 1 -->
-            <div class="team-member">
+            <div class="team-member ">
                 <div class="team-member__photo-container">
                     <img src="assets/team/gayathri.jpg" alt="Gayathri Reddy" class="team-member__photo">
                 </div>
                 <h3 class="team-member__name">Gayathri Reddy</h3>
                 <p class="team-member__role">Event Manager</p>
                 <p class="team-member__bio">
-                    With an eagle eye for detail and 8+ years of experience, Gayathri orchestrates flawless events. 
-                    Her creative vision and operational expertise ensure every moment is picture-perfect.
-                </p>
+                   Gayathri’s dedication to excellence and her vast experience make her the go-to expert for the flawless event planning. She also excels in turning complex ideas into spectacular events that leave lasting impressions.                </p>
                 <div class="team-member__social">
                     <a href="#" class="team-member__social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
@@ -737,15 +754,14 @@
             </div>
             
             <!-- Team Member 2 -->
-            <div class="team-member">
+            <div class="team-member ">
                 <div class="team-member__photo-container">
                     <img src="assets/team/gowthami.jpg" alt="Gowthami" class="team-member__photo">
                 </div>
-                <h3 class="team-member__name">Gowthami</h3>
+                <h3 class="team-member__name">Gowthami Reddy</h3>
                 <p class="team-member__role">Executive Manager</p>
                 <p class="team-member__bio">
-                    The organizational backbone of Golden Events, Gowthami ensures seamless execution across all departments. 
-                    Her leadership keeps every project on track and on budget.
+                    As the organizational backbone of Golden Events, Gowthami orchestrates the perfect synergy between teams. Her ability to manage the resources and maintaining focus ensures flawless execution at every stage.
                 </p>
                 <div class="team-member__social">
                     <a href="#" class="team-member__social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -755,15 +771,14 @@
             </div>
             
             <!-- Team Member 3 -->
-            <div class="team-member">
+            <div class="team-member ">
                 <div class="team-member__photo-container">
                     <img src="assets/team/gvreddy.jpg" alt="Gvreddy" class="team-member__photo">
                 </div>
                 <h3 class="team-member__name">Gvreddy</h3>
                 <p class="team-member__role">Finance Manager</p>
                 <p class="team-member__bio">
-                    A wizard with numbers, Gvreddy optimizes budgets without compromising quality. 
-                    His financial acumen ensures we deliver premium experiences with fiscal responsibility.
+                    Gvreddy's meticulous attention to budgeting means the Golden Events consistently achieves top-tier results without overspending. His insight into the cost-effective strategies supports premium event delivery every time.
                 </p>
                 <div class="team-member__social">
                     <a href="#" class="team-member__social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -773,14 +788,14 @@
             </div>
             
             <!-- Team Member 4 -->
-            <div class="team-member">
+            <div class="team-member ">
                 <div class="team-member__photo-container">
                     <img src="assets/team/gowtham.jpg" alt="Gowtham Reddy" class="team-member__photo">
                 </div>
                 <h3 class="team-member__name">Gowtham Reddy</h3>
                 <p class="team-member__role">Marketing Manager</p>
                 <p class="team-member__bio">
-                    The storyteller of Golden Events, Gowtham crafts compelling narratives that elevate our brand and our clients' events. 
+                    The storyteller of the Golden Events, Gowtham crafts compelling narratives that elevate our brand and our clients' events. 
                     His innovative campaigns set trends in the industry.
                 </p>
                 <div class="team-member__social">
@@ -817,7 +832,7 @@
                     </div>
                     <h3 class="value-title">Passion</h3>
                     <p class="value-description">
-                        Our team's enthusiasm fuels unforgettable experiences. We love what we do, and it shows in every detail.
+                        Fueled by enthusiasm, our team crafts memorable experiences, perfecting every detail.                    
                     </p>
                 </div>
                 
@@ -827,7 +842,7 @@
                     </div>
                     <h3 class="value-title">Integrity</h3>
                     <p class="value-description">
-                        Honest communication and ethical practices form the foundation of all our client relationships.
+                        We build strong, lasting client ties through honesty and ethical practices.
                     </p>
                 </div>
                 
@@ -873,7 +888,7 @@
                 Let's start planning your unforgettable experience today.
             </p>
             <div class="about-cta__buttons">
-                <a href="#contact" class="about-cta__button about-cta__button--primary">Get a Free Consultation</a>
+                <a href="contact.php" class="about-cta__button about-cta__button--primary">Get a Free Consultation</a>
                 <a href="tel:+919876543210" class="about-cta__button about-cta__button--secondary">
                     <i class="fas fa-phone-alt"></i> Call Our Team
                 </a>

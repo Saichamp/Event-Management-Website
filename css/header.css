@@ -59,7 +59,7 @@
     display: block;
     width: 25px;
     height: 3px;
-    background-color: var(--white);
+    background-color: var(--dark-color) !important;
     margin: 5px 0;
     transition: var(--transition);
     position: relative;
@@ -152,6 +152,7 @@
 @media (max-width: 768px) {
     .navbar-primary__toggle {
         display: block;
+       
     }
     
     .navbar-primary__menu {
@@ -186,7 +187,7 @@
     }
     
     .navbar-primary__link {
-        color: var(--dark-color);
+        color: var(--dark-color) !important;
         display: block;
         padding: 0.8rem 0;
     }
@@ -194,6 +195,7 @@
     .navbar-primary__link--cta {
         color: var(--white);
         display: inline-block;
+        padding:10px;
     }
     
     .navbar-primary--solid .navbar-primary__menu {

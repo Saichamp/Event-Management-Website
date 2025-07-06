@@ -1,3 +1,16 @@
+<?php
+require_once 'config.php';
+
+// Fetch latest 5 testimonials
+$stmt = $db->getConnection()->prepare("SELECT * FROM images ORDER BY upload_date DESC LIMIT 5");
+$stmt->execute();
+$latestTestimonials = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+// Generate alt text
+foreach ($latestTestimonials as &$t) {
+    $t['alt_text'] = explode(' ', trim($t['image_name']))[0] ?: 'testimonial';
+}
+?>
 
 <body>
 <?php include 'header.php'; ?>
@@ -10,7 +23,7 @@
                 <div class="hero-carousel__content">
                     <h1 class="hero-carousel__title">Corporate Event Specialists</h1>
                     <p class="hero-carousel__subtitle">Creating memorable experiences for your business</p>
-                    <a href="#contact" class="hero-carousel__button">Plan Your Event</a>
+                    <a href="contact.php" class="hero-carousel__button">Plan Your Event</a>
                 </div>
                 <div class="hero-carousel__event-label">
                     <span>Annual Conferences</span>
@@ -23,7 +36,7 @@
                 <div class="hero-carousel__content">
                     <h1 class="hero-carousel__title">Wedding Planning Experts</h1>
                     <p class="hero-carousel__subtitle">Making your special day unforgettable</p>
-                    <a href="#contact" class="hero-carousel__button">Plan Your Wedding</a>
+                    <a href="contact.php" class="hero-carousel__button">Plan Your Wedding</a>
                 </div>
                 <div class="hero-carousel__event-label">
                     <span>Weddings & Receptions</span>
@@ -36,7 +49,7 @@
                 <div class="hero-carousel__content">
                     <h1 class="hero-carousel__title">Product Launch Professionals</h1>
                     <p class="hero-carousel__subtitle">Making your product shine in the market</p>
-                    <a href="#contact" class="hero-carousel__button">Launch With Us</a>
+                    <a href="contact.php" class="hero-carousel__button">Launch With Us</a>
                 </div>
                 <div class="hero-carousel__event-label">
                     <span>Product Launches</span>

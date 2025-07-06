@@ -154,16 +154,30 @@
             font-size: 1.2rem;
             max-width: 700px;
             margin: 0 auto;
+            text-align:justify;
         }
 
         .service-categories__grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 3rem;
             position: relative;
             z-index: 1;
         }
+        /* Responsive breakpoints */
+            @media (max-width: 768px) {
+                .service-categories__grid {
+                    grid-template-columns: 1fr;
+                    gap: 2rem;
+                }
+            }
 
+            @media (max-width: 576px) {
+                .service-categories__grid {
+                    padding: 0 1rem;
+                    gap: 1.5rem;
+                }
+            }
         .service-category {
             background: white;
             border-radius: 15px;
@@ -238,6 +252,7 @@
             color: var(--text-light);
             margin-bottom: 1.5rem;
             line-height: 1.8;
+            text-align:justify;
         }
 
         .service-category__link {
@@ -695,7 +710,8 @@
                         </div>
                     </div>
                     <h3 class="service-category__title">Weddings</h3>
-                    <p class="service-category__description">Complete wedding planning from engagement to reception with personalized themes and flawless execution</p>
+                   <p class="service-categories__subtitle">From intimate ceremonies to grand receptions, we offer comprehensive wedding planning services. Our team crafts bespoke experiences, tailoring every detail to reflect your personal style and vision, ensuring your special day is perfect in every way.</p>
+
                     <a href="#weddings" class="service-category__link">Explore Services <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
@@ -707,7 +723,8 @@
                         </div>
                     </div>
                     <h3 class="service-category__title">Corporate</h3>
-                    <p class="service-category__description">Professional event management solutions that elevate your business gatherings and brand experiences</p>
+                  <p class="service-categories__subtitle">Our corporate event services include everything from high-profile conferences and seminars to team-building events and product launches. We ensure seamless planning, coordination, and execution, bringing your business gatherings to life with professionalism and innovation.</p>
+
                     <a href="#corporate" class="service-category__link">Explore Services <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
@@ -719,7 +736,8 @@
                         </div>
                     </div>
                     <h3 class="service-category__title">Social</h3>
-                    <p class="service-category__description">Celebrations for life's special moments crafted with creativity, joy, and personal touches</p>
+                   <p class="service-categories__subtitle">We specialize in creating unforgettable social celebrations, from birthday parties to anniversary galas. Our team works with you to design personalized themes and activities that capture the essence of your occasion, making every moment unique and meaningful.</p>
+
                     <a href="#social" class="service-category__link">Explore Services <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
@@ -731,7 +749,8 @@
                         </div>
                     </div>
                     <h3 class="service-category__title">Academic</h3>
-                    <p class="service-category__description">Memorable events for educational institutions that inspire, celebrate, and bring communities together</p>
+                    <p class="service-categories__subtitle">We organize inspiring and engaging academic events, from graduations to conferences. Our expert team ensures that every educational occasion is meticulously planned, fostering a sense of achievement, unity, and community among students, faculty, and guests.</p>
+
                     <a href="#academic" class="service-category__link">Explore Services <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -759,7 +778,7 @@
                             <li><i class="fas fa-check"></i> Detailed timeline creation and management</li>
                             <li><i class="fas fa-check"></i> Full vendor coordination and management</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
                 
@@ -775,7 +794,7 @@
                             <li><i class="fas fa-check"></i> Themed decorations and ambiance creation</li>
                             <li><i class="fas fa-check"></i> Catering coordination with diverse menu options</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
                 
@@ -791,7 +810,7 @@
                             <li><i class="fas fa-check"></i> Seating arrangements and guest flow management</li>
                             <li><i class="fas fa-check"></i> Professional photography & videography coordination</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
             </div>
@@ -819,7 +838,7 @@
                             <li><i class="fas fa-check"></i> Seamless registration management</li>
                             <li><i class="fas fa-check"></i> State-of-the-art AV & technical support</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
                 
@@ -835,7 +854,7 @@
                             <li><i class="fas fa-check"></i> Experiential marketing activations</li>
                             <li><i class="fas fa-check"></i> VIP guest management</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
                 
@@ -851,7 +870,7 @@
                             <li><i class="fas fa-check"></i> Professional facilitator coordination</li>
                             <li><i class="fas fa-check"></i> Premium catering services</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
             </div>
@@ -879,7 +898,7 @@
                             <li><i class="fas fa-check"></i> Custom decorations and ambiance</li>
                             <li><i class="fas fa-check"></i> Catering coordination with special menus</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
                 
@@ -895,7 +914,7 @@
                             <li><i class="fas fa-check"></i> Entertainment booking and coordination</li>
                             <li><i class="fas fa-check"></i> Catering services with customized menus</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
                 
@@ -911,7 +930,7 @@
                             <li><i class="fas fa-check"></i> Accommodation coordination</li>
                             <li><i class="fas fa-check"></i> Catering services with family favorites</li>
                         </ul>
-                        <a href="#contact" class="service-card__cta">Get a Quote</a>
+                        <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
             </div>
@@ -925,7 +944,7 @@
                 <h2 class="service-cta__title">Let's Create Something Extraordinary</h2>
                 <p class="service-cta__text">Our team is ready to bring your vision to life with creativity, precision, and passion. Contact us today to start planning your perfect event.</p>
                 <div class="service-cta__buttons">
-                    <a href="#contact" class="service-cta__button service-cta__button--primary">Get a Free Consultation</a>
+                    <a href="contact.php" class="service-cta__button service-cta__button--primary">Get a Free Consultation</a>
                     <a href="tel:+919876543210" class="service-cta__button service-cta__button--secondary">
                         <i class="fas fa-phone-alt"></i> Call Our Team
                     </a>

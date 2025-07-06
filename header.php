@@ -23,27 +23,27 @@
             <span class="navbar-primary__icon"></span>
         </button>
         
-        <div class="navbar-primary__menu" id="navbarMenu">
-            <ul class="navbar-primary__list">
-                <li class="navbar-primary__item">
-                    <a href="index.php" class="navbar-primary__link">Home</a>
-                </li>
-                <li class="navbar-primary__item">
-                    <a href="aboutus.php" class="navbar-primary__link">About</a>
-                </li>
-                <li class="navbar-primary__item">
-                    <a href="services.php" class="navbar-primary__link">Services</a>
-                </li>
-                <li class="navbar-primary__item">
-                    <a href="gallery.php" class="navbar-primary__link">Gallery</a>
-                </li>
-                <li class="navbar-primary__item">
-                    <a href="testimonials.php" class="navbar-primary__link">Testimonials</a>
-                </li>
-                <li class="navbar-primary__item">
-                    <a href="contact.php" class="navbar-primary__link navbar-primary__link--cta">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <div class="navbar-primary__menu" id="navbarMenu">
+    <ul class="navbar-primary__list">
+        <li class="navbar-primary__item">
+            <a href="index.php" class="navbar-primary__link <?php echo (basename($_SERVER['PHP_SELF']) === 'index.php') ? 'navbar-primary__link--active' : ''; ?>">Home</a>
+        </li>
+        <li class="navbar-primary__item">
+            <a href="aboutus.php" class="navbar-primary__link <?php echo (basename($_SERVER['PHP_SELF']) === 'aboutus.php') ? 'navbar-primary__link--active' : ''; ?>">About</a>
+        </li>
+        <li class="navbar-primary__item">
+            <a href="services.php" class="navbar-primary__link <?php echo (basename($_SERVER['PHP_SELF']) === 'services.php') ? 'navbar-primary__link--active' : ''; ?>">Services</a>
+        </li>
+        <li class="navbar-primary__item">
+            <a href="gallery.php" class="navbar-primary__link <?php echo (basename($_SERVER['PHP_SELF']) === 'gallery.php') ? 'navbar-primary__link--active' : ''; ?>">Gallery</a>
+        </li>
+        <li class="navbar-primary__item">
+            <a href="testimonials.php" class="navbar-primary__link <?php echo (basename($_SERVER['PHP_SELF']) === 'testimonials.php') ? 'navbar-primary__link--active' : ''; ?>">Testimonials</a>
+        </li>
+        <li class="navbar-primary__item">
+            <a href="contact.php" class="navbar-primary__link navbar-primary__link--cta <?php echo (basename($_SERVER['PHP_SELF']) === 'contact.php') ? 'navbar-primary__link--active' : ''; ?>">Contact</a>
+        </li>
+    </ul>
+</div>
     </nav>
 </header>

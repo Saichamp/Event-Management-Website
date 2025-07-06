@@ -46,19 +46,19 @@
                             <a href="#home" class="footer-main__link">Home</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#services" class="footer-main__link">Services</a>
+                            <a href="services.php" class="footer-main__link">Services</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#portfolio" class="footer-main__link">Portfolio</a>
+                            <a href="gallery.php" class="footer-main__link">Gallery</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#about" class="footer-main__link">About Us</a>
+                            <a href="aboutus.php" class="footer-main__link">About Us</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#testimonials" class="footer-main__link">Testimonials</a>
+                            <a href="testimonials.php" class="footer-main__link">Testimonials</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#contact" class="footer-main__link">Contact</a>
+                            <a href="contact.php" class="footer-main__link">Contact</a>
                         </li>
                     </ul>
                 </div>
