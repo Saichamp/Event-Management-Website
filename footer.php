@@ -23,16 +23,16 @@
                     <h3 class="footer-main__heading">Golden Events</h3>
                     <p class="footer-main__text">We create unforgettable experiences with cutting-edge, innovative, and professional event management services across India.</p>
                     <div class="footer-main__social">
-                        <a href="#" class="footer-main__social-link" aria-label="Facebook">
+                        <a href="#" target="_blank" class="footer-main__social-link" aria-label="Facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="https://instagram.com/goldenevents" class="footer-main__social-link" aria-label="Instagram">
+                        <a href="https://instagram.com/goldenevents" target="_blank" class="footer-main__social-link" aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="footer-main__social-link" aria-label="Twitter">
+                        <a href="#" class="footer-main__social-link" target="_blank" aria-label="Twitter">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="footer-main__social-link" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/g4golden-events-aa463a373" class="footer-main__social-link" target="_blank" aria-label="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>

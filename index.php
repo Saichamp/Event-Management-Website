@@ -225,7 +225,9 @@ foreach ($latestTestimonials as &$t) {
             <button class="golden-3d-next"><i class="fas fa-chevron-right"></i></button>
         </div>
     </div>
-    
+    <div class="golden-gallery-cta">
+            <a href="testimonials.php" class="golden-view-more">View Full Testimonials <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
     <!-- Floating decorative elements -->
     <div class="golden-3d-particle" id="particle-1"></div>
     <div class="golden-3d-particle" id="particle-2"></div>
@@ -318,7 +320,7 @@ foreach ($latestTestimonials as &$t) {
         </div>
         
         <div class="golden-gallery-cta">
-            <a href="#" class="golden-view-more">View Full Portfolio <i class="fas fa-long-arrow-alt-right"></i></a>
+            <a href="gallery.php" class="golden-view-more">View Full Portfolio <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
     </div>
 </section>

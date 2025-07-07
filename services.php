@@ -811,6 +811,23 @@
                     <a href="contact.php" class="service-card__cta">Get a Quote</a>
                 </div>
             </div>
+
+            <!-- Cocktail Party -->
+            <div class="service-card service-card--alt">
+                <div class="service-card__image" style="background-image: url('assets/services/cocktail-party.jpg');"></div>
+                <div class="service-card__content">
+                    <h3 class="service-card__title">Cocktail Party</h3>
+                    <p class="service-card__description">Elegant cocktail parties with curated drinks, sophisticated ambiance, and exceptional service.</p>
+                    <ul class="service-card__features">
+                        <li><i class="fas fa-check"></i> Signature drink creations</li>
+                        <li><i class="fas fa-check"></i> Chic décor and ambiance</li>
+                        <li><i class="fas fa-check"></i> Live entertainment and music</li>
+                        <li><i class="fas fa-check"></i> Expert bartenders and servers</li>
+                    </ul>
+                    <a href="contact.php" class="service-card__cta">Get a Quote</a>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -990,6 +1007,23 @@
                         <a href="contact.php" class="service-card__cta">Get a Quote</a>
                     </div>
                 </div>
+
+                <!-- Half-Saree Ceremony -->
+            <div class="service-card">
+                <div class="service-card__image" style="background-image: url('assets/services/half-saree.jpg');"></div>
+                <div class="service-card__content">
+                    <h3 class="service-card__title">Half-Saree Ceremony</h3>
+                    <p class="service-card__description">Celebrate this cultural milestone with traditional rituals, vibrant attire, and family celebrations.</p>
+                    <ul class="service-card__features">
+                        <li><i class="fas fa-check"></i> Traditional ceremony setup</li>
+                        <li><i class="fas fa-check"></i> Custom decorations and styling</li>
+                        <li><i class="fas fa-check"></i> Cultural performances and rituals</li>
+                        <li><i class="fas fa-check"></i> Catering with regional delicacies</li>
+                    </ul>
+                    <a href="contact.php" class="service-card__cta">Get a Quote</a>
+                </div>
+            </div>
+
             </div>
         </div>
     </section>
