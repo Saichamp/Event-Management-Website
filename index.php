@@ -20,20 +20,20 @@ foreach ($latestTestimonials as &$t) {
         <div class="hero-carousel__slides">
             <!-- Slide 1 -->
             <div class="hero-carousel__slide hero-carousel__slide--active">
-                <div class="hero-carousel__image" style="background-image: url('assets/img1.png');"></div>
+                <div class="hero-carousel__image" style="background-image: url('assets/img2.png');"></div>
                 <div class="hero-carousel__content">
-                    <h1 class="hero-carousel__title">Corporate Event Specialists</h1>
-                    <p class="hero-carousel__subtitle">Creating memorable experiences for your business</p>
-                    <a href="contact.php" class="hero-carousel__button">Plan Your Event</a>
+                    <h1 class="hero-carousel__title">Party Event Specialists</h1>
+                    <p class="hero-carousel__subtitle">Creating memorable experiences for your Special Day</p>
+                    <a href="contact.php" class="hero-carousel__button">Plan Your Parties</a>
                 </div>
                 <div class="hero-carousel__event-label">
-                    <span>Annual Conferences</span>
+                    <span>parties</span>
                 </div>
             </div>
             
             <!-- Slide 2 -->
             <div class="hero-carousel__slide">
-                <div class="hero-carousel__image" style="background-image: url('assets/img2.png');"></div>
+                <div class="hero-carousel__image" style="background-image: url('assets/img1.png');"></div>
                 <div class="hero-carousel__content">
                     <h1 class="hero-carousel__title">Wedding Planning Experts</h1>
                     <p class="hero-carousel__subtitle">Making your special day unforgettable</p>
@@ -48,12 +48,12 @@ foreach ($latestTestimonials as &$t) {
             <div class="hero-carousel__slide">
                 <div class="hero-carousel__image" style="background-image: url('assets/img3.png');"></div>
                 <div class="hero-carousel__content">
-                    <h1 class="hero-carousel__title">Product Launch Professionals</h1>
-                    <p class="hero-carousel__subtitle">Making your product shine in the market</p>
-                    <a href="contact.php" class="hero-carousel__button">Launch With Us</a>
+                    <h1 class="hero-carousel__title">Birthday Parties</h1>
+                    <p class="hero-carousel__subtitle">Making your day memorable</p>
+                    <a href="contact.php" class="hero-carousel__button">Celebrate  With Us</a>
                 </div>
                 <div class="hero-carousel__event-label">
-                    <span>Product Launches</span>
+                    <span>Parties</span>
                 </div>
             </div>
         </div>
@@ -243,29 +243,29 @@ foreach ($latestTestimonials as &$t) {
         <div class="golden-grid-masonry">
             <!-- Grid Item 1 (Large) -->
             <div class="golden-grid-item golden-grid-item--wide">
-                <img src="assets/t1.jpg" alt="Grand Wedding" class="golden-grid-img">
+              <img src="assets/royalwed.webp" alt="Grand Wedding" class="golden-grid-img">
                 <div class="golden-grid-overlay">
                     <div class="golden-grid-content">
                         <h3 class="golden-grid-caption">Royal Wedding</h3>
-                        <p class="golden-grid-description">500+ guests · Taj Palace</p>
+                        <p class="golden-grid-description">500+ guests ·</p>
                     </div>
                 </div>
             </div>
             
             <!-- Grid Item 2 (Tall) -->
             <div class="golden-grid-item golden-grid-item--tall">
-                <img src="assets/t2.jpg" alt="Corporate Event" class="golden-grid-img">
+                <img src="assets/tech.webp" alt="Corporate Event" class="golden-grid-img">
                 <div class="golden-grid-overlay">
                     <div class="golden-grid-content">
                         <h3 class="golden-grid-caption">Tech Conference</h3>
-                        <p class="golden-grid-description">Bangalore · 2023</p>
+                        <p class="golden-grid-description">Hyderabad</p>
                     </div>
                 </div>
             </div>
             
             <!-- Grid Item 3 (Small) -->
             <div class="golden-grid-item">
-                <img src="assets/gallery/birthday-1.jpg" alt="Birthday Party" class="golden-grid-img">
+                <img src="assets/themedparty.webp" alt="Birthday Party" class="golden-grid-img">
                 <div class="golden-grid-overlay">
                     <div class="golden-grid-content">
                         <h3 class="golden-grid-caption">Sweet 16</h3>
@@ -276,7 +276,7 @@ foreach ($latestTestimonials as &$t) {
             
             <!-- Grid Item 4 (Medium) -->
             <div class="golden-grid-item">
-                <img src="assets/gallery/sangeet-1.jpg" alt="Sangeet Night" class="golden-grid-img">
+                <img src="assets/sangeeth.webp" alt="Sangeet Night" class="golden-grid-img">
                 <div class="golden-grid-overlay">
                     <div class="golden-grid-content">
                         <h3 class="golden-grid-caption">Sangeet Night</h3>
@@ -287,7 +287,7 @@ foreach ($latestTestimonials as &$t) {
             
             <!-- Grid Item 5 (Medium) -->
             <div class="golden-grid-item">
-                <img src="assets/gallery/product-1.jpg" alt="Product Launch" class="golden-grid-img">
+                <img src="assets/product.webp" alt="Product Launch" class="golden-grid-img">
                 <div class="golden-grid-overlay">
                     <div class="golden-grid-content">
                         <h3 class="golden-grid-caption">Product Launch</h3>
@@ -298,7 +298,7 @@ foreach ($latestTestimonials as &$t) {
             
             <!-- Grid Item 6 (Tall) -->
             <div class="golden-grid-item golden-grid-item--tall">
-                <img src="assets/gallery/haldi-1.jpg" alt="Haldi Ceremony" class="golden-grid-img">
+                <img src="assets/haldi.webp" alt="Haldi Ceremony" class="golden-grid-img">
                 <div class="golden-grid-overlay">
                     <div class="golden-grid-content">
                         <h3 class="golden-grid-caption">Haldi Ceremony</h3>
@@ -309,7 +309,7 @@ foreach ($latestTestimonials as &$t) {
             
             <!-- Grid Item 7 (Wide) -->
             <div class="golden-grid-item golden-grid-item--wide">
-                <img src="assets/gallery/reception-1.jpg" alt="Reception" class="golden-grid-img">
+                <img src="assets/reception.webp" alt="Reception" class="golden-grid-img">
                 <div class="golden-grid-overlay">
                     <div class="golden-grid-content">
                         <h3 class="golden-grid-caption">Grand Reception</h3>

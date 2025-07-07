@@ -54,7 +54,7 @@
             align-items: center;
             justify-content: center;
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), 
-                        url('assets/about-bg.jpg') center/cover no-repeat fixed;
+                        url('assets/img1.png') center/cover no-repeat fixed;
             color: white;
             text-align: center;
             padding: 0 2rem;
@@ -721,7 +721,7 @@
                 
                 <div class="stats-container" id="stats-container">
                     <div class="stat-box">
-                        <div class="stat-number" data-count="1500">0</div>
+                        <div class="stat-number" data-count="15">0</div>
                         <div class="stat-label">Events Managed</div>
                     </div>
                     <div class="stat-box">
@@ -729,13 +729,10 @@
                         <div class="stat-label">Client Satisfaction</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number" data-count="12">0</div>
+                        <div class="stat-number" data-count="1">0</div>
                         <div class="stat-label">Years Experience</div>
                     </div>
-                    <div class="stat-box">
-                        <div class="stat-number" data-count="50">0</div>
-                        <div class="stat-label">Awards Won</div>
-                    </div>
+                 
                 </div>
             </div>
         </div>

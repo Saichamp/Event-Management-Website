@@ -45,7 +45,7 @@
                     align-items: center;
                     justify-content: center;
                     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), 
-                                url('assets/testimonials/hero-bg.jpg') center/cover no-repeat fixed;
+                                url('assets/img1.png') center/cover no-repeat fixed;
                     color: white;
                     text-align: center;
                     padding: 0 2rem;

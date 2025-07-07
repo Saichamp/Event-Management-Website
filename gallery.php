@@ -50,7 +50,7 @@
             align-items: center;
             justify-content: center;
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), 
-                        url('assets/gallery/hero-bg.jpg') center/cover no-repeat fixed;
+                        url('assets/img2.png') center/cover no-repeat fixed;
             color: white;
             text-align: center;
             padding: 0 2rem;
@@ -394,7 +394,7 @@
     <section class="gallery-grid" id="gallery-grid">
         <!-- Wedding 1 (Wide) -->
         <div class="grid-item grid-item--wide" data-category="wedding">
-            <img src="assets/gallery/wedding-1.jpg" alt="Grand Wedding" class="grid-item__image">
+            <img src="assets/royalwed.webp" alt="Grand Wedding" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Royal Wedding</h3>
                 <span class="grid-item__category">Wedding</span>
@@ -403,7 +403,7 @@
         
         <!-- Corporate 1 (Tall) -->
         <div class="grid-item grid-item--tall" data-category="corporate">
-            <img src="assets/gallery/corporate-1.jpg" alt="Corporate Event" class="grid-item__image">
+            <img src="assets/coporate-event.webp" alt="Corporate Event" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Tech Conference</h3>
                 <span class="grid-item__category">Corporate</span>
@@ -412,7 +412,7 @@
         
         <!-- Social 1 (Small) -->
         <div class="grid-item" data-category="social">
-            <img src="assets/gallery/social-1.jpg" alt="Birthday Party" class="grid-item__image">
+            <img src="assets/birthday.webp" alt="Birthday Party" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Sweet 16</h3>
                 <span class="grid-item__category">Birthday</span>
@@ -421,7 +421,7 @@
         
         <!-- Wedding 2 (Medium) -->
         <div class="grid-item" data-category="wedding">
-            <img src="assets/gallery/wedding-2.jpg" alt="Sangeet Night" class="grid-item__image">
+            <img src="assets/sangeeth.webp" alt="Sangeet Night" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Sangeet Night</h3>
                 <span class="grid-item__category">Wedding</span>
@@ -430,7 +430,7 @@
         
         <!-- Corporate 2 (Medium) -->
         <div class="grid-item" data-category="corporate">
-            <img src="assets/gallery/corporate-2.jpg" alt="Product Launch" class="grid-item__image">
+            <img src="assets/product.webp" alt="Product Launch" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Product Launch</h3>
                 <span class="grid-item__category">Corporate</span>
@@ -439,7 +439,7 @@
         
         <!-- Academic 1 (Tall) -->
         <div class="grid-item grid-item--tall" data-category="academic">
-            <img src="assets/gallery/academic-1.jpg" alt="Graduation Ceremony" class="grid-item__image">
+            <img src="assets/graduation.png" alt="Graduation Ceremony" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Graduation Day</h3>
                 <span class="grid-item__category">Academic</span>
@@ -448,7 +448,7 @@
         
         <!-- Wedding 3 (Big) -->
         <div class="grid-item grid-item--big" data-category="wedding">
-            <img src="assets/gallery/wedding-3.jpg" alt="Wedding Reception" class="grid-item__image">
+            <img src="assets/reception.webp" alt="Wedding Reception" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Grand Reception</h3>
                 <span class="grid-item__category">Wedding</span>
@@ -457,7 +457,7 @@
         
         <!-- Social 2 (Medium) -->
         <div class="grid-item" data-category="social">
-            <img src="assets/gallery/social-2.jpg" alt="Anniversary Party" class="grid-item__image">
+            <img src="assets/anniversary.webp" alt="Anniversary Party" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Golden Anniversary</h3>
                 <span class="grid-item__category">Anniversary</span>
@@ -466,7 +466,7 @@
         
         <!-- Corporate 3 (Wide) -->
         <div class="grid-item grid-item--wide" data-category="corporate">
-            <img src="assets/gallery/corporate-3.jpg" alt="Award Ceremony" class="grid-item__image">
+            <img src="assets/award.webp" alt="Award Ceremony" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Award Night</h3>
                 <span class="grid-item__category">Corporate</span>
@@ -475,7 +475,7 @@
         
         <!-- Academic 2 (Small) -->
         <div class="grid-item" data-category="academic">
-            <img src="assets/gallery/academic-2.jpg" alt="College Fest" class="grid-item__image">
+            <img src="assets/fest.webp" alt="College Fest" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">College Fest</h3>
                 <span class="grid-item__category">Academic</span>
@@ -484,7 +484,7 @@
         
         <!-- Social 3 (Medium) -->
         <div class="grid-item" data-category="social">
-            <img src="assets/gallery/social-3.jpg" alt="Family Reunion" class="grid-item__image">
+            <img src="assets/family.webp" alt="Family Reunion" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Family Reunion</h3>
                 <span class="grid-item__category">Social</span>
@@ -493,7 +493,7 @@
         
         <!-- Wedding 4 (Tall) -->
         <div class="grid-item grid-item--tall" data-category="wedding">
-            <img src="assets/gallery/wedding-4.jpg" alt="Haldi Ceremony" class="grid-item__image">
+            <img src="assets/haldi.webp" alt="Haldi Ceremony" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Haldi Ceremony</h3>
                 <span class="grid-item__category">Wedding</span>

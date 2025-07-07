@@ -311,7 +311,7 @@
         }
 
         .service-section--alt {
-            background: url('assets/img1.png') center/cover fixed;
+            background: url('assets/img2.png') center/cover fixed;
         }
 
         .service-section--alt::before {
@@ -782,7 +782,7 @@
         <div class="service-section__grid">
             <!-- Themed Parties -->
             <div class="service-card service-card--alt">
-                <div class="service-card__image" style="background-image: url('assets/services/themed-party.jpg');"></div>
+                <div class="service-card__image" style="background-image: url('assets/themedparty.webp');"></div>
                 <div class="service-card__content">
                     <h3 class="service-card__title">Themed Parties</h3>
                     <p class="service-card__description">Creative party themes and setups designed to bring your vision to life.</p>
@@ -798,7 +798,7 @@
             
             <!-- Surprise Parties -->
             <div class="service-card service-card--alt">
-                <div class="service-card__image" style="background-image: url('assets/services/surprise-party.jpg');"></div>
+                <div class="service-card__image" style="background-image: url('assets/surprice.webp');"></div>
                 <div class="service-card__content">
                     <h3 class="service-card__title">Surprise Parties</h3>
                     <p class="service-card__description">Unforgettable surprise parties with secret plans and amazing reveals.</p>
@@ -814,7 +814,7 @@
 
             <!-- Cocktail Party -->
             <div class="service-card service-card--alt">
-                <div class="service-card__image" style="background-image: url('assets/services/cocktail-party.jpg');"></div>
+                <div class="service-card__image" style="background-image: url('assets/cocktail.webp');"></div>
                 <div class="service-card__content">
                     <h3 class="service-card__title">Cocktail Party</h3>
                     <p class="service-card__description">Elegant cocktail parties with curated drinks, sophisticated ambiance, and exceptional service.</p>
@@ -842,7 +842,7 @@
             <div class="service-section__grid">
                 <!-- Service 1 -->
                 <div class="service-card">
-                    <div class="service-card__image" style="background-image: url('assets/services/wedding-1.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/royalwed.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Complete Wedding Planning</h3>
                         <p class="service-card__description">End-to-end wedding planning including venue selection, vendor coordination, and day-of coordination to ensure your special day is perfect.</p>
@@ -858,7 +858,7 @@
                 
                 <!-- Service 2 -->
                 <div class="service-card">
-                    <div class="service-card__image" style="background-image: url('assets/services/wedding-2.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/sangeeth&mehandi.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Sangeet & Mehendi</h3>
                         <p class="service-card__description">Vibrant pre-wedding celebrations filled with traditional performances, henna artistry, and joyful festivities.</p>
@@ -874,7 +874,7 @@
                 
                 <!-- Service 3 -->
                 <div class="service-card">
-                    <div class="service-card__image" style="background-image: url('assets/services/wedding-3.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/reception.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Reception Planning</h3>
                         <p class="service-card__description">Elegant reception planning to celebrate your union in style with unforgettable experiences.</p>
@@ -902,7 +902,7 @@
             <div class="service-section__grid">
                 <!-- Service 1 -->
                 <div class="service-card service-card--alt">
-                    <div class="service-card__image" style="background-image: url('assets/services/corporate-1.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/seminar.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Conferences & Seminars</h3>
                         <p class="service-card__description">Comprehensive management of professional gatherings that inspire knowledge-sharing and networking.</p>
@@ -918,7 +918,7 @@
                 
                 <!-- Service 2 -->
                 <div class="service-card service-card--alt">
-                    <div class="service-card__image" style="background-image: url('assets/services/corporate-2.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/product.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Product Launches</h3>
                         <p class="service-card__description">Creating buzz and excitement for your new product with innovative launch experiences.</p>
@@ -934,7 +934,7 @@
                 
                 <!-- Service 3 -->
                 <div class="service-card service-card--alt">
-                    <div class="service-card__image" style="background-image: url('assets/services/corporate-3.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/teambuilding.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Team Building Events</h3>
                         <p class="service-card__description">Engaging activities designed to strengthen teamwork, communication, and company culture.</p>
@@ -962,7 +962,7 @@
             <div class="service-section__grid">
                 <!-- Service 1 -->
                 <div class="service-card">
-                    <div class="service-card__image" style="background-image: url('assets/services/social-1.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/birthday.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Birthday Celebrations</h3>
                         <p class="service-card__description">Themed parties for all ages, from first birthdays to milestone celebrations that create lasting memories.</p>
@@ -978,7 +978,7 @@
                 
                 <!-- Service 2 -->
                 <div class="service-card">
-                    <div class="service-card__image" style="background-image: url('assets/services/social-2.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/anniversary.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Anniversary Parties</h3>
                         <p class="service-card__description">Elegant celebrations to honor lasting love and commitment with personalized touches.</p>
@@ -994,7 +994,7 @@
                 
                 <!-- Service 3 -->
                 <div class="service-card">
-                    <div class="service-card__image" style="background-image: url('assets/services/social-3.jpg');"></div>
+                    <div class="service-card__image" style="background-image: url('assets/family.webp');"></div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Family Reunions</h3>
                         <p class="service-card__description">Creating memorable gatherings that bring extended families and friends together.</p>
@@ -1010,7 +1010,7 @@
 
                 <!-- Half-Saree Ceremony -->
             <div class="service-card">
-                <div class="service-card__image" style="background-image: url('assets/services/half-saree.jpg');"></div>
+                <div class="service-card__image" style="background-image: url('assets/halfsaree.webp');"></div>
                 <div class="service-card__content">
                     <h3 class="service-card__title">Half-Saree Ceremony</h3>
                     <p class="service-card__description">Celebrate this cultural milestone with traditional rituals, vibrant attire, and family celebrations.</p>

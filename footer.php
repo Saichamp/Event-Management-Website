@@ -23,15 +23,11 @@
                     <h3 class="footer-main__heading">Golden Events</h3>
                     <p class="footer-main__text">We create unforgettable experiences with cutting-edge, innovative, and professional event management services across India.</p>
                     <div class="footer-main__social">
-                        <a href="#" target="_blank" class="footer-main__social-link" aria-label="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
+                    
                         <a href="https://instagram.com/goldenevents" target="_blank" class="footer-main__social-link" aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="footer-main__social-link" target="_blank" aria-label="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
+                      
                         <a href="https://www.linkedin.com/in/g4golden-events-aa463a373" class="footer-main__social-link" target="_blank" aria-label="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
@@ -43,7 +39,7 @@
                     <h3 class="footer-main__heading">Quick Links</h3>
                     <ul class="footer-main__list">
                         <li class="footer-main__item">
-                            <a href="#home" class="footer-main__link">Home</a>
+                            <a href="index.php" class="footer-main__link">Home</a>
                         </li>
                         <li class="footer-main__item">
                             <a href="services.php" class="footer-main__link">Services</a>
@@ -68,22 +64,22 @@
                     <h3 class="footer-main__heading">Our Services</h3>
                     <ul class="footer-main__list">
                         <li class="footer-main__item">
-                            <a href="#" class="footer-main__link">Corporate Events</a>
+                            <a href="services.php" class="footer-main__link">Corporate Events</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#" class="footer-main__link">Wedding Planning</a>
+                            <a href="services.php" class="footer-main__link">Wedding Planning</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#" class="footer-main__link">Product Launches</a>
+                            <a href="services.php" class="footer-main__link">Product Launches</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#" class="footer-main__link">Virtual Conferences</a>
+                            <a href="services.php" class="footer-main__link">Virtual Conferences</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#" class="footer-main__link">Award Ceremonies</a>
+                            <a href="services.php" class="footer-main__link">Award Ceremonies</a>
                         </li>
                         <li class="footer-main__item">
-                            <a href="#" class="footer-main__link">Sports Events</a>
+                            <a href="services.php" class="footer-main__link">Sports Events</a>
                         </li>
                     </ul>
                 </div>
