@@ -745,7 +745,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div class="mb-3">
                                 <label for="description" class="form-label">Description</label>
                                 <textarea class="form-control" id="description" name="description" rows="3" 
-                                          placeholder="Image description..."></textarea>
+                                          placeholder="Testimonial description..."></textarea>
                             </div>
                             <div class="mb-3">
                             <label for="star_rating" class="form-label">Star Rating *</label>
@@ -793,12 +793,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
             </div>
 
-            <!-- Images List -->
+            <!-- Testimonial List -->
             <div class="col-lg-8">
                 <div class="card shadow">
                     <div class="card-header bg-success">
                         <h5 class="mb-0">
-                            <i class="fas fa-list"></i> Images testimonial
+                            <i class="fas fa-list"></i> Testimonial testimonial
                         </h5>
                         <button class="btn btn-light btn-sm float-end" id="refreshBtn">
                             <i class="fas fa-sync-alt"></i> Refresh
