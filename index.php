@@ -12,8 +12,9 @@ foreach ($latestTestimonials as &$t) {
 }
 ?>
 
-<body>
+
 <?php include 'header.php'; ?>
+<body>
     <!-- Full-screen Carousel -->
     <section class="hero-carousel" id="home">
         <div class="hero-carousel__slides">
@@ -190,6 +191,20 @@ foreach ($latestTestimonials as &$t) {
                     <span class="golden-service-tag">Food</span>
                 </div>
             </div>
+            <!-- Card 9 -->
+        <div class="golden-event-card golden-card-themed-party">
+            <div class="golden-card-icon">
+                <i class="fas fa-gift"></i>
+            </div>
+            <h3 class="golden-card-title">Themed & Surprise Parties</h3>
+            <p class="golden-card-text">Customized themed setups with surprise elements to delight your guests</p>
+            <div class="golden-card-services">
+                <span class="golden-service-tag">Decorations</span>
+                <span class="golden-service-tag">Entertainment</span>
+                <span class="golden-service-tag">Catering</span>
+            </div>
+        </div>
+
         </div>
     </div>
 </section>

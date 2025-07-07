@@ -206,3 +206,18 @@
         color: var(--dark-color);
     }
 }
+
+/* Logo Styles */
+.logo {
+    width: 50px;  /* Adjust the width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    display: block;
+     margin-right:20px;/* Center the logo horizontally with some margin */
+}
+
+/* Responsive logo for smaller screens */
+@media (max-width: 768px) {
+    .logo {
+        width: 30px; /* Smaller size for smaller screens */
+    }
+}

@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Golden Events</title>
+      <!-- Favicon -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="assets/logo.png">
+    
+    <!-- Optional: iOS icon sizes for better compatibility -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/logo.png">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
@@ -265,7 +277,7 @@
 
         .team-grid {
             display: grid;
-grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
             gap: 3rem;
             max-width: 1300px;
             margin: 0 auto;
@@ -328,7 +340,7 @@ grid-template-columns: repeat(2, 1fr);
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            object-fit: cover;
+            object-fit: contain;
             border: 5px solid var(--dark);
             transition: all 0.5s ease;
         }
@@ -746,11 +758,11 @@ grid-template-columns: repeat(2, 1fr);
                 <p class="team-member__role">Event Manager</p>
                 <p class="team-member__bio">
                    Gayathri’s dedication to excellence and her vast experience make her the go-to expert for the flawless event planning. She also excels in turning complex ideas into spectacular events that leave lasting impressions.                </p>
-                <div class="team-member__social">
+                <!-- <div class="team-member__social">
                     <a href="#" class="team-member__social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                </div>
+                </div> -->
             </div>
             
             <!-- Team Member 2 -->
@@ -763,28 +775,28 @@ grid-template-columns: repeat(2, 1fr);
                 <p class="team-member__bio">
                     As the organizational backbone of Golden Events, Gowthami orchestrates the perfect synergy between teams. Her ability to manage the resources and maintaining focus ensures flawless execution at every stage.
                 </p>
-                <div class="team-member__social">
+                <!-- <div class="team-member__social">
                     <a href="#" class="team-member__social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                </div>
+                </div> -->
             </div>
             
             <!-- Team Member 3 -->
             <div class="team-member ">
                 <div class="team-member__photo-container">
-                    <img src="assets/team/gvreddy.jpg" alt="Gvreddy" class="team-member__photo">
+                    <img src="assets/team/gv.jpg" alt="Gvreddy" class="team-member__photo">
                 </div>
                 <h3 class="team-member__name">Gvreddy</h3>
                 <p class="team-member__role">Finance Manager</p>
                 <p class="team-member__bio">
                     Gvreddy's meticulous attention to budgeting means the Golden Events consistently achieves top-tier results without overspending. His insight into the cost-effective strategies supports premium event delivery every time.
                 </p>
-                <div class="team-member__social">
+                <!-- <div class="team-member__social">
                     <a href="#" class="team-member__social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                </div>
+                </div> -->
             </div>
             
             <!-- Team Member 4 -->
@@ -798,11 +810,11 @@ grid-template-columns: repeat(2, 1fr);
                     The storyteller of the Golden Events, Gowtham crafts compelling narratives that elevate our brand and our clients' events. 
                     His innovative campaigns set trends in the industry.
                 </p>
-                <div class="team-member__social">
+                <!-- <div class="team-member__social">
                     <a href="#" class="team-member__social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="team-member__social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

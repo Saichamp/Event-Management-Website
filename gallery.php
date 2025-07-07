@@ -2,6 +2,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Golden Events</title>
+      <!-- Favicon -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="assets/logo.png">
+    
+    <!-- Optional: iOS icon sizes for better compatibility -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/logo.png">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->

@@ -1,7 +1,22 @@
 
+      <!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services - Golden Events</title>
+      <!-- Favicon -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="assets/logo.png">
+    
+    <!-- Optional: iOS icon sizes for better compatibility -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/logo.png">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
@@ -675,7 +690,7 @@
             }
         }
     </style>
-
+</head>
 <body>
     <?php include 'header.php'; ?>
 
@@ -756,7 +771,49 @@
             </div>
         </div>
     </section>
-
+        <!-- Our Specials -->
+<section class="service-section service-section--alt" id="specials">
+    <div class="golden-container">
+        <div class="service-section__header">
+            <h2 class="service-section__title">Our Specials</h2>
+            <p class="service-section__subtitle">Exclusive themed and surprise parties tailored for every occasion</p>
+        </div>
+        
+        <div class="service-section__grid">
+            <!-- Themed Parties -->
+            <div class="service-card service-card--alt">
+                <div class="service-card__image" style="background-image: url('assets/services/themed-party.jpg');"></div>
+                <div class="service-card__content">
+                    <h3 class="service-card__title">Themed Parties</h3>
+                    <p class="service-card__description">Creative party themes and setups designed to bring your vision to life.</p>
+                    <ul class="service-card__features">
+                        <li><i class="fas fa-check"></i> Custom theme development</li>
+                        <li><i class="fas fa-check"></i> Themed decorations and ambiance</li>
+                        <li><i class="fas fa-check"></i> Entertainment planning</li>
+                        <li><i class="fas fa-check"></i> Catering coordination</li>
+                    </ul>
+                    <a href="contact.php" class="service-card__cta">Get a Quote</a>
+                </div>
+            </div>
+            
+            <!-- Surprise Parties -->
+            <div class="service-card service-card--alt">
+                <div class="service-card__image" style="background-image: url('assets/services/surprise-party.jpg');"></div>
+                <div class="service-card__content">
+                    <h3 class="service-card__title">Surprise Parties</h3>
+                    <p class="service-card__description">Unforgettable surprise parties with secret plans and amazing reveals.</p>
+                    <ul class="service-card__features">
+                        <li><i class="fas fa-check"></i> Secret theme planning</li>
+                        <li><i class="fas fa-check"></i> Surprise reveals and experiences</li>
+                        <li><i class="fas fa-check"></i> Creative entertainment</li>
+                        <li><i class="fas fa-check"></i> Event coordination</li>
+                    </ul>
+                    <a href="contact.php" class="service-card__cta">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Wedding Services -->
     <section class="service-section" id="weddings">
         <div class="golden-container">
