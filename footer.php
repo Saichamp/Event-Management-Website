@@ -117,11 +117,7 @@
                 <div class="footer-main__copyright">
                     &copy; <span id="currentYear"></span> Golden Events. All Rights Reserved.
                 </div>
-                <div class="footer-main__legal">
-                    <a href="#" class="footer-main__legal-link">Privacy Policy</a>
-                    <a href="#" class="footer-main__legal-link">Terms of Service</a>
-                    <a href="#" class="footer-main__legal-link">Sitemap</a>
-                </div>
+              
             </div>
         </div>
     </footer>
