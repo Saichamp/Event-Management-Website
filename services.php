@@ -1,5 +1,5 @@
 
-      <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -61,7 +61,7 @@
             align-items: center;
             justify-content: center;
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), 
-                        url('assets/img3.png') center/cover no-repeat fixed;
+                        url('assets/themedparty.webp') center/cover no-repeat fixed;
             color: white;
             text-align: center;
             padding: 0 2rem;
@@ -1023,6 +1023,20 @@
                     <a href="contact.php" class="service-card__cta">Get a Quote</a>
                 </div>
             </div>
+<div class="service-card">
+    <div class="service-card__image" style="background-image: url('assets/puja.webp');"></div>
+    <div class="service-card__content">
+        <h3 class="service-card__title">Festivals & Poojas</h3>
+        <p class="service-card__description">Celebrate spiritual and festive occasions with grace and tradition—Ganesh Chaturthi, Housewarming Poojas, and more.</p>
+        <ul class="service-card__features">
+            <li><i class="fas fa-check"></i> Complete pooja arrangements</li>
+            <li><i class="fas fa-check"></i> Thematic festival decorations</li>
+            <li><i class="fas fa-check"></i> Priest and ritual services</li>
+            <li><i class="fas fa-check"></i> Catering with traditional prasadam</li>
+        </ul>
+        <a href="contact.php" class="service-card__cta">Get a Quote</a>
+    </div>
+</div>
 
             </div>
         </div>

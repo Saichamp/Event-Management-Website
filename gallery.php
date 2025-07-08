@@ -50,7 +50,7 @@
             align-items: center;
             justify-content: center;
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), 
-                        url('assets/img2.png') center/cover no-repeat fixed;
+                        url('assets/reception.webp') center/cover no-repeat fixed;
             color: white;
             text-align: center;
             padding: 0 2rem;
@@ -439,7 +439,7 @@
         
         <!-- Academic 1 (Tall) -->
         <div class="grid-item grid-item--tall" data-category="academic">
-            <img src="assets/graduation.png" alt="Graduation Ceremony" class="grid-item__image">
+            <img src="assets/graduation.webp" alt="Graduation Ceremony" class="grid-item__image">
             <div class="grid-item__overlay">
                 <h3 class="grid-item__title">Graduation Day</h3>
                 <span class="grid-item__category">Academic</span>
