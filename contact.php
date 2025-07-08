@@ -453,8 +453,8 @@
                 <div class="contact-method__content">
                     <h3>Email Address</h3>
                     <p>
-                        <a href="mailto:info@goldenevents.com">info@goldenevents.com</a><br>
-                        <a href="mailto:bookings@goldenevents.com">bookings@goldenevents.com</a>
+                        <a href="mailto:g4goldenevents@gmail.com">g4goldenevents@gmail.com</a><br>
+                     
                     </p>
                 </div>
             </div>
