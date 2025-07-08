@@ -419,7 +419,7 @@ document.addEventListener('DOMContentLoaded', function() {
             particle.style.width = `${size}px`;
             particle.style.height = `${size}px`;
             particle.style.left = `${posX}%`;
-            particle.style.top = `${posY}%`;
+particle.style.top = `${Math.random() * 80}%`; // Keep within 80%
             particle.style.opacity = opacity;
             
             gallery.appendChild(particle);

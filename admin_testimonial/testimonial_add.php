@@ -1,7 +1,7 @@
 <?php
 // config.php - Database configuration
 class DatabaseConfig {
-    private $host = 'localhost';
+     private $host = 'localhost';
     private $dbname = 'ems';
     private $username = 'root';
     private $password = '';

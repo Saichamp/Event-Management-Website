@@ -71,8 +71,7 @@
 .footer-main {
     background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
     color: #ffffff;
-    padding: 3rem 0 1rem;
-    position: relative;
+padding: 0.5rem 0 1rem;    position: relative;
     overflow: hidden;
 }
 

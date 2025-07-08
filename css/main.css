@@ -502,7 +502,7 @@ a {
 
 /* 3D Testimonials Section */
 .golden-testimonials-3d {
-    padding: 8rem 0;
+    padding: 0rem 0;
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     position: relative;
     overflow: hidden;
@@ -792,12 +792,12 @@ a {
         width: 50px;
         height: 50px;
     }
-}
-/* Gallery Section - Clean & Clear */
+}/* Gallery Section - Clean & Clear */
 .golden-gallery {
-    padding: 6rem 0;
+    padding: 6rem 0 0 0; /* Removed bottom padding completely */
     background: #000;
     position: relative;
+    overflow: hidden; /* Prevents any child elements from causing overflow */
 }
 
 .golden-gallery-container {
@@ -817,7 +817,7 @@ a {
 }
 
 .golden-sparkle {
-    color: #FFD700; /* Simplified from gradient to solid gold */
+    color: #FFD700;
 }
 
 .golden-gallery-subtitle {
@@ -835,6 +835,7 @@ a {
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 20px;
     grid-auto-flow: dense;
+    margin-bottom: 0; /* Explicitly set to 0 */
 }
 
 .golden-grid-item {
@@ -842,6 +843,7 @@ a {
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    margin-bottom: 0; /* Ensure no margin */
 }
 
 .golden-grid-item:hover {
@@ -854,6 +856,7 @@ a {
     height: 100%;
     object-fit: cover;
     display: block;
+    margin: 0; /* Remove any default image margins */
 }
 
 /* Grid Item Sizes */
@@ -867,7 +870,8 @@ a {
 
 .golden-gallery-cta {
     text-align: center;
-    margin-top: 4rem;
+    margin: 2.5rem 0 0 0; /* Only top margin */
+    padding: 0; /* Remove any padding */
 }
 
 .golden-view-more {
@@ -880,11 +884,19 @@ a {
     border: 2px solid #D4AF37;
     border-radius: 50px;
     transition: all 0.3s ease;
+    margin: 4rem 0 8rem !important; /* Remove any margin */
 }
 
 .golden-view-more:hover {
     background: #D4AF37;
     color: #000;
+}
+
+/* Floating particles - ensure they don't cause overflow */
+.golden-gallery-particle {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
 }
 
 /* Responsive Design */
@@ -906,7 +918,7 @@ a {
 
 @media (max-width: 768px) {
     .golden-gallery {
-        padding: 4rem 0;
+        padding: 4rem 0 0 0; /* Maintain no bottom padding */
     }
     
     .golden-gallery-title {
@@ -935,3 +947,4 @@ a {
         grid-row: span 1;
     }
 }
+
