@@ -1036,7 +1036,7 @@
                 <p class="service-cta__text">Our team is ready to bring your vision to life with creativity, precision, and passion. Contact us today to start planning your perfect event.</p>
                 <div class="service-cta__buttons">
                     <a href="contact.php" class="service-cta__button service-cta__button--primary">Get a Free Consultation</a>
-                    <a href="tel:+919876543210" class="service-cta__button service-cta__button--secondary">
+                    <a href="tel:+919494055362" class="service-cta__button service-cta__button--secondary">
                         <i class="fas fa-phone-alt"></i> Call Our Team
                     </a>
                 </div>

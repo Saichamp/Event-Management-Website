@@ -898,7 +898,7 @@
             </p>
             <div class="about-cta__buttons">
                 <a href="contact.php" class="about-cta__button about-cta__button--primary">Get a Free Consultation</a>
-                <a href="tel:+919876543210" class="about-cta__button about-cta__button--secondary">
+                <a href="tel:++919494055362" class="about-cta__button about-cta__button--secondary">
                     <i class="fas fa-phone-alt"></i> Call Our Team
                 </a>
             </div>

@@ -208,7 +208,7 @@ foreach ($latestTestimonials as &$t) {
         </div>
     </div>
 </section>
-<!-- Testimonials Section -->
+
 <!-- Testimonials Section -->
 <section class="golden-testimonials-3d" id="testimonials">
     <div class="golden-3d-container">

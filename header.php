@@ -26,7 +26,7 @@
   <header class="header-main">
     <nav class="navbar-primary navbar-primary--transparent">
         <div class="navbar-primary__brand">
-            <img class="logo" src="assets\logo.png">
+            <img class="logo" src="assets/logo.png">
             <a href="index.php" class="navbar-primary__logo">Golden Events</a>
         </div>
         

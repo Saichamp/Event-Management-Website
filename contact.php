@@ -429,7 +429,7 @@
                 </div>
                 <div class="contact-method__content">
                     <h3>Our Office</h3>
-                    <p>123 Golden Avenue, Event District<br>New York, NY 10001</p>
+                    <p>Sri Hari nevasam 3rd block 2floor flat no 307 near Tagore rice mill, Amaravati road, Nagaralu, Guntur</p>
                 </div>
             </div>
             
@@ -440,8 +440,8 @@
                 <div class="contact-method__content">
                     <h3>Phone Numbers</h3>
                     <p>
-                        <a href="tel:+18005551234">+1 (800) 555-1234</a><br>
-                        <a href="tel:+12125556789">+1 (212) 555-6789</a>
+                        <a href="tel:+919494055362">+91 9494055362</a><br>
+                        <a href="tel:+919505380238">+91 9505380238</a>
                     </p>
                 </div>
             </div>
@@ -474,11 +474,11 @@
             </div>
             
             <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <!-- <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a> -->
+                <a href="https://www.instagram.com/g4_golden_events" class="social-link"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a> -->
+                <a href="https://www.linkedin.com/in/g4golden-events-aa463a373" class="social-link"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
         
@@ -535,7 +535,7 @@
         <div class="map-container">
             <h2 class="map-title">Find Us Here</h2>
             <div class="map-wrapper" id="map-wrapper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209179035!2d-73.9878449241646!3d40.74844097138948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689876543210!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7657.866181672171!2d80.42895938445966!3d16.326362683819223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSri%20Hari%20Nevasam%2C%203rd%20Block%2C%202nd%20Floor%2C%20Flat%20No.%20307%2C%20near%20Tagore%20Rice%20Mill%2C%20Amaravati%20Road%2C%20Nagaralu%2C%20Guntur!5e0!3m2!1sen!2sin!4v1751958684772!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
