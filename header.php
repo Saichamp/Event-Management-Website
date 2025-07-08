@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elite Events - Best Event Management Company in Bangalore</title>
+    <title> G4 GoldenEvents  - Best Event Management Company in Guntur</title>
      <!-- Favicon -->
     <link rel="icon" href="assets/logo.png" type="image/png">
     
@@ -26,7 +26,7 @@
   <header class="header-main">
     <nav class="navbar-primary navbar-primary--transparent">
         <div class="navbar-primary__brand">
-            <img class="logo" src="assets/logo.png">
+            <img class="logo" src="assets/logo.png" alt="Golden Events Logo">
             <a href="index.php" class="navbar-primary__logo">Golden Events</a>
         </div>
         

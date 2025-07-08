@@ -155,28 +155,28 @@ document.addEventListener('DOMContentLoaded', function() {
     const testimonials = [
         {
             quote: "Golden Events transformed our wedding into a magical experience. Their team handled everything perfectly, allowing us to enjoy every moment stress-free.",
-            name: "Priya & Rohan",
+            name: "Priya & Rahul",
             role: "Wedding Clients",
             rating: 5,
             avatar: "assets/t1.jpg"
         },
         {
             quote: "Our product launch exceeded all expectations. The creative concepts and flawless execution helped us make a huge impact in our industry.",
-            name: "TechStart Inc",
+            name: "Dev3 Solutions",
             role: "Corporate Client",
             rating: 4.5,
             avatar: "assets/t2.jpg"
         },
         {
             quote: "From decorations to catering, everything was perfect for our daughter's birthday. The team's attention to detail was remarkable.",
-            name: "The Sharma Family",
+            name: "The Reddy's Family",
             role: "Birthday Celebration",
             rating: 5,
             avatar: "assets/t3.jpg"
         },
         {
             quote: "The cultural event they organized for our college was spectacular. Professionalism and creativity at its best!",
-            name: "Bangalore University",
+            name: "Kits College",
             role: "College Event",
             rating: 5,
             avatar: "assets/t4.jpg"
