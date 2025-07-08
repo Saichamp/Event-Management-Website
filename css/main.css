@@ -793,31 +793,17 @@ a {
         height: 50px;
     }
 }
-
-/* Gallery Section - Cinematic Experience */
+/* Gallery Section - Clean & Clear */
 .golden-gallery {
     padding: 6rem 0;
     background: #000;
     position: relative;
-    overflow: hidden;
-}
-
-.golden-gallery::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  
 }
 
 .golden-gallery-container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
-    position: relative;
-    z-index: 2;
 }
 
 .golden-gallery-title {
@@ -831,28 +817,7 @@ a {
 }
 
 .golden-sparkle {
-    background: linear-gradient(45deg, #D4AF37, #FFD700, #F9D423, #D4AF37);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 300% 300%;
-    animation: gradientSparkle 6s ease infinite;
-    position: relative;
-}
-
-.golden-sparkle::after {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: inherit;
-    background-size: 300% 300%;
-    z-index: -1;
-    filter: blur(15px);
-    opacity: 0.7;
-    animation: gradientSparkle 6s ease infinite;
+    color: #FFD700; /* Simplified from gradient to solid gold */
 }
 
 .golden-gallery-subtitle {
@@ -876,87 +841,19 @@ a {
     position: relative;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transform: scale(0.98);
-    filter: brightness(0.9);
-    z-index: 1;
-}
-
-.golden-grid-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, rgba(0,0,0,0.7), transparent);
-    z-index: 2;
-    opacity: 0;
-    transition: all 0.4s ease;
+    transition: transform 0.3s ease;
 }
 
 .golden-grid-item:hover {
-    transform: scale(1);
-    filter: brightness(1);
-    box-shadow: 0 20px 50px rgba(212, 175, 55, 0.3);
-    z-index: 10;
-}
-
-.golden-grid-item:hover::before {
-    opacity: 1;
+    transform: scale(1.02);
+    z-index: 2;
 }
 
 .golden-grid-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.golden-grid-item:hover .golden-grid-img {
-    transform: scale(1.1);
-}
-
-.golden-grid-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 2rem;
-    opacity: 0;
-    transition: all 0.4s ease;
-}
-
-.golden-grid-item:hover .golden-grid-overlay {
-    opacity: 1;
-}
-
-.golden-grid-content {
-    transform: translateY(30px);
-    transition: all 0.4s ease 0.2s;
-}
-
-.golden-grid-item:hover .golden-grid-content {
-    transform: translateY(0);
-}
-
-.golden-grid-caption {
-    color: #fff;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
-}
-
-.golden-grid-description {
-    color: #D4AF37;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    display: block;
 }
 
 /* Grid Item Sizes */
@@ -982,58 +879,12 @@ a {
     padding: 1rem 2rem;
     border: 2px solid #D4AF37;
     border-radius: 50px;
-    transition: all 0.4s ease;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-
-.golden-view-more::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #D4AF37;
-    z-index: -1;
-    transition: width 0.4s ease;
+    transition: all 0.3s ease;
 }
 
 .golden-view-more:hover {
+    background: #D4AF37;
     color: #000;
-    padding-right: 3rem;
-}
-
-.golden-view-more:hover::before {
-    width: 100%;
-}
-
-.golden-view-more i {
-    margin-left: 0.5rem;
-    transition: all 0.4s ease;
-    position: relative;
-    left: 0;
-}
-
-.golden-view-more:hover i {
-    left: 10px;
-}
-
-/* Animations */
-@keyframes gradientSparkle {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-/* Floating Particles */
-.golden-gallery-particle {
-    position: absolute;
-    background: rgba(212, 175, 55, 0.2);
-    border-radius: 50%;
-    filter: blur(1px);
-    z-index: 1;
 }
 
 /* Responsive Design */

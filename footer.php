@@ -24,7 +24,7 @@
                     <p class="footer-main__text">We create unforgettable experiences with cutting-edge, innovative, and professional event management services across India.</p>
                     <div class="footer-main__social">
                     
-                        <a href="https://instagram.com/goldenevents" target="_blank" class="footer-main__social-link" aria-label="Instagram">
+                        <a href="https://www.instagram.com/g4_golden_events" target="_blank" class="footer-main__social-link" aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
                       

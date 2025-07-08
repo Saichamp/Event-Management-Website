@@ -767,7 +767,7 @@
                 <div class="team-member__photo-container">
                     <img src="assets/team/gowthami.jpg" alt="Gowthami" class="team-member__photo">
                 </div>
-                <h3 class="team-member__name">Gowthami Reddy</h3>
+                <h3 class="team-member__name">Gowthami</h3>
                 <p class="team-member__role">Executive Manager</p>
                 <p class="team-member__bio">
                     As the organizational backbone of Golden Events, Gowthami orchestrates the perfect synergy between teams. Her ability to manage the resources and maintaining focus ensures flawless execution at every stage.
